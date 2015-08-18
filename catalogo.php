@@ -5,6 +5,12 @@
 	<!--lista productos-->
 	<div class="lista-productos col-xs-12 col-sm-12 col-md-12 ol-lg-12">
 
+		<!--buscador-->
+		<div class="buscador col-xs-12 col-sm-12 col-md-12 ol-lg-12">
+			<!--<input type="text" name="" value="" disabled>-->
+		</div>
+		<!--end / buscador-->
+
 		<?php 
 			for ($i=0; $i < 12 ; $i++) { 
 		 ?>

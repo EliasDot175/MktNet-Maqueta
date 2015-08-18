@@ -5,6 +5,12 @@
 	<!--detalle productos-->
 	<div class="detalle-productos col-xs-12 col-sm-12 col-md-12 ol-lg-12">
 
+		<!--buscador-->
+		<div class="buscador col-xs-12 col-sm-12 col-md-12 ol-lg-12">
+			<!--<input type="text" name="" value="" disabled>-->
+		</div>
+		<!--end / buscador-->
+
 		<!--col-a-->
 		<div class="col-a block background-a col-xs-12 col-sm-4 col-md-4 ol-lg-4">
 			<div class="img">

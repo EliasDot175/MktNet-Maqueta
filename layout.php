@@ -118,11 +118,7 @@
 				<!--contenido-->
 				<div class="contenido col-xs-12 col-sm-12 col-md-12 ol-lg-12">
 
-					<!--buscador-->
-					<div class="buscador col-xs-12 col-sm-12 col-md-12 ol-lg-12">
-						<!--<input type="text" name="" value="" disabled>-->
-					</div>
-					<!--end / buscador-->
+					
 
 					<?php startblock('contenido') ?> <?php endblock() ?> 
 

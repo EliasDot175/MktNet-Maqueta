@@ -77,6 +77,9 @@ $grisB : #B1B6A6;
     position: relative;
 }
 
+.inactivo {
+            opacity: .5;
+    }
 
 .head {
     height: 100px;
@@ -248,6 +251,19 @@ $grisB : #B1B6A6;
                                     -o-background-color: rgba(0,0,0,.5);
                                     -ms-background-color: rgba(0,0,0,.5);
                                     border: none;
+                        }
+            }
+
+             .head-page{
+                    height: 75px;
+                    padding: 15px 10px;
+                    position: relative;
+
+                        h3{
+                                       color: #fff;
+                                       font-size: 17px;
+                                       font-family: 'BrooklynSamuelsFive-Bold';
+                                       padding: 18px;
                         }
             }
 
@@ -427,6 +443,10 @@ $grisB : #B1B6A6;
                         font-weight: normal;
                         padding-top: 5px;
                         margin: 0 5px;
+             }
+
+             .boton:hover {
+                        opacity: .8;
              }
 
             .inactivo{

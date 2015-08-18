@@ -466,6 +466,9 @@ body {
   min-height: 500px;
   position: relative; }
 
+.inactivo {
+  opacity: .5; }
+
 .head {
   height: 100px;
   background-color: #009448; }
@@ -589,6 +592,15 @@ body {
     -o-background-color: rgba(0, 0, 0, 0.5);
     -ms-background-color: rgba(0, 0, 0, 0.5);
     border: none; }
+.base .head-page {
+  height: 75px;
+  padding: 15px 10px;
+  position: relative; }
+  .base .head-page h3 {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'BrooklynSamuelsFive-Bold';
+    padding: 18px; }
 .base .sub-footer {
   background-color: rgba(255, 255, 255, 0.5);
   -moz-background-color: rgba(255, 255, 255, 0.5);
@@ -713,6 +725,8 @@ body {
     font-weight: normal;
     padding-top: 5px;
     margin: 0 5px; }
+  .block-botones .boton:hover {
+    opacity: .8; }
   .block-botones .inactivo {
     opacity: .5; }
 
@@ -1159,6 +1173,22 @@ body {
 .carrito-productos {
   min-height: 500px;
   width: 100%; }
+  .carrito-productos .footer-carrito {
+    width: 100%;
+    background-color: rgba(53, 89, 68, 0.45);
+    -webkit-background-color: rgba(53, 89, 68, 0.45);
+    -moz-background-color: rgba(53, 89, 68, 0.45);
+    -ms-background-color: rgba(53, 89, 68, 0.45);
+    -o-background-color: rgba(53, 89, 68, 0.45);
+    padding-bottom: 30px;
+    box-sizing: border-box; }
+    .carrito-productos .footer-carrito .boton {
+      width: auto;
+      padding: 10px;
+      font-size: 12px; }
+  .carrito-productos .tabla-detalle thead, .carrito-productos .tabla-detalle tbody {
+    width: 100%;
+    display: block; }
   .carrito-productos .tabla-detalle th {
     color: #fff;
     text-align: center;
@@ -1177,22 +1207,23 @@ body {
     -webkit-background-color: rgba(53, 89, 68, 0.45);
     -moz-background-color: rgba(53, 89, 68, 0.45);
     -ms-background-color: rgba(53, 89, 68, 0.45);
-    -o-background-color: rgba(53, 89, 68, 0.45); }
+    -o-background-color: rgba(53, 89, 68, 0.45);
+    padding: 20px 20px 10px 20px; }
   .carrito-productos .tabla-detalle .fecha td {
     background-color: #666; }
   .carrito-productos .tabla-detalle td {
     color: #fff;
     text-align: center;
-    font-family: 'Brandon_reg';
-    height: 60px; }
+    font-family: 'BrooklynSamuelsFive-Bold';
+    height: 60px;
+    font-size: 12px; }
     .carrito-productos .tabla-detalle td .producto {
-      width: 50px;
-      height: 50px;
+      width: 44px;
+      height: 44px;
       float: left;
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      margin-left: 20px;
       box-sizing: border-box;
       background-color: #fff;
       border-radius: 100%;
@@ -1201,33 +1232,77 @@ body {
       -ms-border-radius: 100%;
       -o-border-radius: 100%;
       overflow: hidden;
-      margin-top: 5px;
-      top: 23px; }
+      margin-top: 10px;
+      top: 16px; }
       .carrito-productos .tabla-detalle td .producto img {
-        width: 80%;
-        margin: 0 10%; }
+        width: 110%; }
     .carrito-productos .tabla-detalle td .cerrar {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-      padding-left: 3px; }
+      padding-left: 3px;
+      top: 2px;
+      position: relative; }
     .carrito-productos .tabla-detalle td .text {
       position: relative;
       top: 50%;
-      transform: translateY(-50%); }
+      transform: translateY(-50%);
+      font-family: 'Brandon_reg';
+      height: 10px; }
+    .carrito-productos .tabla-detalle td .color {
+      margin: 0 auto;
+      height: 30px; }
+      .carrito-productos .tabla-detalle td .color .icon-color {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -o-border-radius: 100%;
+        -ms-border-radius: 100%;
+        display: inline-block;
+        padding-top: 5px;
+        position: relative;
+        top: 5px; }
+      .carrito-productos .tabla-detalle td .color p {
+        display: inline-block;
+        padding-left: 5px;
+        font-size: 12px; }
+  .carrito-productos .tabla-detalle .col-D {
+    width: 210px; }
+  .carrito-productos .tabla-detalle .col-A {
+    width: 100px; }
+  .carrito-productos .tabla-detalle .col-B {
+    width: 105px; }
+  .carrito-productos .tabla-detalle .col-C {
+    width: 115px; }
+  .carrito-productos .tabla-detalle .col-Total {
+    width: 230px; }
+  .carrito-productos .tabla-detalle .quitar {
+    cursor: pointer;
+    text-align: right;
+    max-width: 110px;
+    font-family: 'BrooklynSamuelsFive-Bold';
+    font-size: 14px; }
+    .carrito-productos .tabla-detalle .quitar p {
+      height: 10px; }
+  .carrito-productos .tabla-detalle .quitar:hover {
+    opacity: .5; }
   .carrito-productos .tabla-detalle .item {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -moz-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -ms-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -o-border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  .carrito-productos .tabla-detalle .big-text {
+    font-size: 18px;
+    height: 10px; }
   .carrito-productos .total .block-num {
-    padding: 10px;
-    padding: 10px;
     display: table;
-    height: 100%;
-    width: 80%;
-    margin: 0 10%;
+    height: 97%;
+    width: 90%;
+    margin: 0 0 0 10%;
     vertical-align: middle;
     background-color: rgba(255, 255, 255, 0.1);
     -webkit-background-color: rgba(255, 255, 255, 0.1);
@@ -1235,7 +1310,8 @@ body {
     -ms-background-color: rgba(255, 255, 255, 0.1);
     -o-background-color: rgba(255, 255, 255, 0.1);
     position: relative;
-    min-width: 100px; }
+    min-width: 100px;
+    margin-bottom: 10px; }
     .carrito-productos .total .block-num .num {
       width: 100%;
       font-family: 'BrooklynSamuelsFive-Bold';
@@ -1249,6 +1325,36 @@ body {
 
 /* RESPONSIVE  */
 /*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .carrito-productos .tabla-detalle .col-B {
+    display: none !important; }
+
+  .carrito-productos .tabla-detalle .col-C {
+    display: none !important; }
+
+          /*  .carrito-productos .tabla-detalle .col-D {
+                width: 33%;
+            }
+
+            .carrito-productos .tabla-detalle .col-A {
+                width: 33%;
+            }
+
+            .carrito-productos .tabla-detalle .col-Total {
+                width: 33%;
+            }*/
+  .carrito-productos .tabla-detalle p {
+    font-size: 10px;
+    width: 100%; }
+
+  .carrito-productos .tabla-detalle .col-Total {
+    width: 150px; }
+
+  .carrito-productos .total .block-num .num {
+    font-size: 15px; }
+
+  .carrito-productos .tabla-detalle td .producto {
+    margin-left: 20px; } }
 /*tablet----------------------------------------*/
 /**  TABLETS LANDSCAPE **/
 /*notbook------------------------------------*/
