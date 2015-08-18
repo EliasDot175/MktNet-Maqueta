@@ -1,0 +1,151 @@
+// ========================
+/******** CARRITO ********/
+// ========================
+.carrito-productos{
+            min-height: 500px;
+            width: 100%;
+            
+
+            .tabla-detalle{
+
+
+                          th {
+                                    color: #fff;
+                                    text-align: center;
+                                    font-family: 'BrooklynSamuelsFive-Bold';
+                                    font-size: 12px;
+                          }
+
+                          thead {
+                                        background-color: rgba(84,91,80,.54); 
+                                        -webkit-background-color: rgba(84,91,80,.54); 
+                                        -moz-background-color: rgba(84,91,80,.54); 
+                                        -ms-background-color: rgba(84,91,80,.54); 
+                                        -o-background-color: rgba(84,91,80,.54);     
+                                
+
+                                        th {
+                                                height: 65px;  
+                                      }
+
+                        }
+
+                        tbody{
+                                       background-color: rgba(53,89,68,.45); 
+                                        -webkit-background-color: rgba(53,89,68,.45); 
+                                        -moz-background-color: rgba(53,89,68,.45); 
+                                        -ms-background-color: rgba(53,89,68,.45); 
+                                        -o-background-color: rgba(53,89,68,.45);    
+                        }
+                        
+                        .fecha{
+
+                                    td{
+                                                background-color: #666;
+                                    }
+                        }
+
+                         td {
+                                     color: #fff;
+                                     text-align: center;
+                                     font-family: 'Brandon_reg';
+
+                                      img {
+                                                width: 45px;
+                                                float: left;
+                                        }
+
+                                       .text {
+                                                float: left;
+                                        }
+                        }
+
+                        .item {
+                                    border-bottom: 1px solid rgba(255,255,255,.3);
+                                    -webkit-border-bottom: 1px solid rgba(255,255,255,.3);
+                                     -moz-border-bottom: 1px solid rgba(255,255,255,.3);
+                                    -ms-border-bottom: 1px solid rgba(255,255,255,.3);
+                                    -o-border-bottom: 1px solid rgba(255,255,255,.3);
+                        }
+            }
+
+            .total{
+
+                        
+
+                        .titulo{
+                                        height: 65px;
+                                        color: #fff;
+                                        text-align: center;
+                                        font-family: 'BrooklynSamuelsFive-Bold';
+                                        padding-top: 25px;
+                                        font-size: 12px;
+                                        background-color: rgba(84,91,80,.54); 
+                                        -webkit-background-color: rgba(84,91,80,.54); 
+                                        -moz-background-color: rgba(84,91,80,.54); 
+                                        -ms-background-color: rgba(84,91,80,.54); 
+                                        -o-background-color: rgba(84,91,80,.54);  
+                        }
+
+                        .block-num{
+                                    padding: 10px;
+                                    background-color: rgba(53,89,68,.45); 
+                                    -webkit-background-color: rgba(53,89,68,.45); 
+                                    -moz-background-color: rgba(53,89,68,.45); 
+                                    -ms-background-color: rgba(53,89,68,.45); 
+                                    -o-background-color: rgba(53,89,68,.45); 
+                                       
+
+                                       .num{
+                                                        background-color: rgba(255,255,255,.1); 
+                                                        -webkit-background-color: rgba(255,255,255,.1); 
+                                                        -moz-background-color: rgba(255,255,255,.1); 
+                                                        -ms-background-color: rgba(255,255,255,.1); 
+                                                        -o-background-color: rgba(255,255,255,.1); 
+                                                        font-family: 'BrooklynSamuelsFive-Bold';
+                                                        font-size: 29px; 
+                                                        padding: 10px;
+                                                        text-align: center;
+                                                        color: #fff;
+                                        }
+                        }
+            }
+
+}
+
+
+
+// ==========================================================================
+/* RESPONSIVE  */
+// ==========================================================================
+
+/*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width : 767px){
+
+}
+
+
+/*tablet----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width : 1280px){
+  
+}
+
+/**  TABLETS LANDSCAPE **/
+@media screen and (min-width: 771px) and (max-width : 980px){
+
+}
+
+/*notbook------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width : 1800px){
+	
+}
+
+/*desktop------------------------------*/
+@media screen and (min-width: 1801px) and (max-width : 2200px){
+
+}
+
+/*desktop large-----------------------------------------------*/
+@media screen and (min-width: 2220px) and (max-width : 4000px){
+
+}
