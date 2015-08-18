@@ -1,5 +1,13 @@
 <?php include 'layout.php' ?>
 
+<?php startblock('head') ?>
+	<img src="assets/images/menu-2-verde.png" alt="">
+	<div class="texto">
+		<h3 class="text-a">HISTORIAL</h3>
+		<h3 class="text-b">DE CANJES REALIZADOS</h3>
+	</div>
+<?php endblock() ?>
+
 <?php startblock('contenido') ?>
 		
 	<!--detalle productos-->
@@ -10,11 +18,11 @@
 			<div class="filtros">
 				<p class="text-uppercase">filtro</p>
 				<input type="text" name="" value="">
-				<select class="selectpicker">
-				    <option>Mustard</option>
-				    <option>Ketchup</option>
-				    <option>Relish</option>
-				  </select>
+				<select name="" >
+					<option class="opciones" value="opciones">opciones</option>
+					<option class="opciones" value="opciones">opciones</option>
+					<option class="opciones" value="opciones">opciones</option>
+				</select>
 			</div>
 		</div>
 		<!--end / head-page-->

@@ -97,14 +97,11 @@
 			<!--base-->
 			<div class="base">
 
-
 				<!--titulo-->
 				<div class="titulo col-xs-12 col-sm-12 col-md-12 ol-lg-12">
-					<img src="assets/images/menu-1-verde.png" alt="">
-					<div class="texto">
-						<h3 class="text-a">CATÁLOGO</h3>
-						<h3 class="text-b">DE PRODUCTOS</h3>
-					</div>
+
+					<?php startblock('head') ?> <?php endblock() ?> 
+
 					<div class="block-right">
 						<p class="num">20.500</p>
 						<p class="text-a text-uppercase">puntos</p>
@@ -112,6 +109,7 @@
 							<br>HASTA 31/07/2016
 						</p>
 					</div>
+					
 				</div>
 				<!--end / titulo-->
 

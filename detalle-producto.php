@@ -1,5 +1,13 @@
 <?php include 'layout.php' ?>
 
+<?php startblock('head') ?>
+	<img src="assets/images/menu-1-verde.png" alt="">
+	<div class="texto">
+		<h3 class="text-a">CATALOGO</h3>
+		<h3 class="text-b">DE PRODUCTOS</h3>
+	</div>
+<?php endblock() ?>
+
 <?php startblock('contenido') ?>
 		
 	<!--detalle productos-->
@@ -7,7 +15,7 @@
 
 		<!--buscador-->
 		<div class="buscador col-xs-12 col-sm-12 col-md-12 ol-lg-12">
-			<!--<input type="text" name="" value="" disabled>-->
+			<!--<input type="text" name="" value="" >-->
 		</div>
 		<!--end / buscador-->
 

@@ -1,5 +1,13 @@
 <?php include 'layout.php' ?>
 
+<?php startblock('head') ?>
+	<img src="assets/images/carrito-title.png" alt="">
+	<div class="texto-carrito">
+		<h3 class="text-a">CARRITO</h3>
+		<h3 class="text-b">CONFIRMAR CANJES</h3>
+	</div>
+<?php endblock() ?>
+
 <?php startblock('contenido') ?>
 
 	<!--detalle productos-->
