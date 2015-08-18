@@ -146,7 +146,12 @@
                                                      }
                                          }
                         }
-                        
+
+                        .big-text{
+                                    font-size: 18px;
+                                    height: 10px;
+                        }
+
                         .col-Auto{
                                         width: auto;
                         }
@@ -195,10 +200,7 @@
                                     -o-border-bottom: 1px solid rgba(255,255,255,.3);
                         }
 
-                        .big-text{
-                                    font-size: 18px;
-                                    height: 10px;
-                        }
+                        
             }
 
             .total{

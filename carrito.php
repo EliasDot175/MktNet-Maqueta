@@ -26,72 +26,79 @@
 				</tr>
 			</thead>
 
+
 			<tbody>
-			
+
 			<?php 
 				$cantItems = 6;
-
 				for ($i=0; $i < $cantItems ; $i++) { 
 			 ?>
-			 	<!--!item-->
+
+			 	<!--*********** ITEM *********-->
 				<tr class="item">
+					<!-- nombre-->
 					<td class="col-D">
 						<div class="producto">
 							<img src="assets/images/producto.png" alt="">
 						</div>
 						<p class="text text-uppercase">camisa escosesa </p>
 					</td>
+					<!--  end / nombre-->
+
+					<!-- talle-->
 					<td class="col-B">
-						<!-- SI NO HAY TALLE
-							<p class="text-uppercase inactivo">n/a</p>
-						-->
-						<!-- color-->
+						<!-- SI NO HAY TALLE-->
+						<!-- <p class="text-uppercase inactivo">n/a</p>-->
 						<p class="text-uppercase big-text">m</p>
 					</td>
+					<!--  end / talle-->
+
+					<!-- color-->
 					<td class="col-C">
-						<!-- SI NO HAY COLOR
-							<p class="text-uppercase inactivo">n/a</p>
-						-->
-						<!-- color-->
+						<!-- SI NO HAY COLOR-->
+						<!-- <p class="text-uppercase inactivo">n/a</p>-->
 						<div class="color">
 							<span class="icon-color  color-verde "></span>
 							<p class=" text-uppercase">verde </p>
 						</div>
-						
-						<!-- end / color-->
 					</td>
+					<!-- end / color-->
+
+					<!-- unidades-->
 					<td class="col-B">
 						<p class="text-uppercase big-text ">15</p>
 					</td>
+					<!--  end / unidades-->
+
+					<!-- puntos-->
 					<td class="col-B">
 						<p class="text-uppercase big-text ">450</p>
 					</td>
+					<!--  end / puntos-->
+
+					<!-- quitar-->
 					<td class="quitar col-A">
 						<p class="text-uppercase">
 							quitar
 							<img class="cerrar" src="assets/images/cerrar.png" alt="">
 						</p>
 					</td>
+					<!--  end / quitar-->
 
-					<?php 
-						if($i == 0){
-			 		?>
-					<!--COLUMNA TOTAL (no se repite rowspan = cantidad de items) -->
+					<!--total puntos(columna no se repite -> rowspan = cantidad de items) -->
+					<?php   if($i == 0){  ?>
 					<td class="total col-Total" rowspan="<?php echo $cantItems ?>">
 						<div class="block-num">
 							<p class="num ">3.700</p>
 						</div>
 					</td>
-					<!--END / COLUMNA TOTAL -->
-					<?php 
-						}
-					?>
-				</tr>
-				<!--end / item-->
+					<?php  }   ?>
+					<!--end / total puntos-->
 
-			<?php 
-				}
-			?>
+				</tr>
+				<!--***********END /  ITEM *********-->
+
+			<?php   }   ?>
 				
 			</tbody>
 

@@ -481,6 +481,64 @@ $grisB : #B1B6A6;
  .ver-carrito:hover{
             opacity: .5;
 }
+
+.filtros{
+
+            p{
+                        font-family: 'Brandon_reg';
+                        color: #fff;
+                        padding-bottom: 5px;
+            }
+
+            input, select{
+                        font-family: 'Brandon_reg';
+                        color: #fff;
+                        border: none;
+                        width: 200px;
+                        height: 27px;
+                        padding:0 5px;
+                        box-sizing: border-box;
+                        background-color: rgba(0, 0, 0, 0.25);
+                        -moz-background-color: rgba(0, 0, 0, 0.25);
+                        -webkit-background-color: rgba(0, 0, 0, 0.25);
+                        -o-background-color: rgba(0, 0, 0, 0.25);
+                        -ms-background-color: rgba(0, 0, 0, 0.25);
+                        border-radius:3px;
+                        -moz-border-radius:3px;
+                        -webkit-border-radius:3px;
+                        -o-border-radius:3px;
+                        -ms-border-radius:3px;
+                        outline:none;
+
+                        .opciones{
+                                     border: none;
+                                     color: #fff;
+                                    background-color: #353325;
+                                    outline:none;
+                        }
+
+                        .opciones:hover{
+                                     border: none;
+                                     color: #fff;
+                                    background-color: #60634B !important;
+                        }
+                        .opciones:focus{
+                                     border: none;
+                        }
+                        
+            }
+
+            select:focus{
+                        border: none;
+                        outline:none;
+             }
+
+             option:focus{
+                outline:none;
+            }
+
+}
+
 // ==========================================================================
 /* RESPONSIVE  */
 // ==========================================================================
@@ -490,13 +548,6 @@ $grisB : #B1B6A6;
 
             .menu {
                 z-index: 6;
-            }
-             .collapse {
-                background-color: #666;
-            }
-
-            .collapsing {
-                background-color: #666;
             }
 
             .menu li {
@@ -554,6 +605,7 @@ $grisB : #B1B6A6;
                         -moz-background-color: rgba(84,119,98,.45); 
                         -ms-background-color: rgba(84,119,98,.45); 
                         -o-background-color: rgba(84,119,98,.45); 
+                        border-radius: 0;
             }
 
             .panel{
@@ -583,20 +635,54 @@ $grisB : #B1B6A6;
                         -moz-background-color: rgba(0, 0, 0, 0.35);
                         -ms-background-color: rgba(0, 0, 0, 0.35);
                          -o-background-color: rgba(0, 0, 0, 0.35);
+                        border-radius: 0;
+                        position: relative;
+                        height: 25px;
+                        padding:7px;
 
-                         a {
+                         h4{
+                                    text-decoration: none;
                                     color: #fff;
                                     font-family: 'BrooklynSamuelsFive-Bold';
                                     font-size: 12px;
                         }
 
-                         .panel-heading:hover {
-                                    text-decoration: none;
-                                    opacity: .8;
+                        .flecha{
+                                     position: absolute;
+                                     right: 17px;
+                                     top: 5px;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-image:url('../images/flecha-top.png');
                         }
-
-
             }
+
+            .collapsed{
+
+                        .flecha{
+                                    background-image:url('../images/flecha-bottom.png') !important;
+                           }
+            
+            }
+
+
+
+            .panel-heading:hover {
+                        opacity: .8;
+            }
+
+            a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: 'BrooklynSamuelsFive-Bold';
+                        font-size: 12px;
+            }
+
+             a:hover {
+                        text-decoration: none !important;
+                        opacity: .8;
+            }
+
 }
 
 
