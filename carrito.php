@@ -11,7 +11,7 @@
 		</div>
 		<!--end / head-page-->
 		
-		<!-- talles -->
+		<!-- tabla-detalle -->
 		<table class="tabla-detalle col-xs-12 col-sm-12 col-md-12 ol-lg-12">
 
 			<thead >
@@ -93,13 +93,10 @@
 				}
 			?>
 				
-
 			</tbody>
 
-
-
 		</table>
-		<!--end /  talles -->
+		<!--end /  tabla-detalle -->
 
 
 		<!-- footer carrito -->

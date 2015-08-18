@@ -5,20 +5,117 @@
             width: 100%;
 
             .tabla-detalle{
-                width: 100%;
-                background-color: rgba(0,0,0,.3); 
-                -webkit-background-color: rgba(0,0,0,.3); 
-                -moz-background-color: rgba(0,0,0,.3);
-                 -ms-background-color: rgba(0,0,0,.3); 
-                 -o-background-color: rgba(0,0,0,.3); 
+                        width: 100%;
+                        
 
+                        thead {
+                                background-color: rgba(84, 91, 80, 0.54);
+                                -webkit-background-color: rgba(84, 91, 80, 0.54);
+                                -moz-background-color: rgba(84, 91, 80, 0.54);
+                                 -ms-background-color: rgba(84, 91, 80, 0.54);
+                                -o-background-color: rgba(84, 91, 80, 0.54);
 
-                .fecha{
-
-                        td{
-                                    background-color: #666;
+                                 th {
+                                        height: 65px;
+                                        color: #fff;
+                                        text-align: center;
+                                        font-size: 12px;
+                                        font-family: 'BrooklynSamuelsFive-Bold';
+                                 }
                         }
-                }
+
+                        td {
+                                     color: #fff;
+                                     text-align: center;
+                                     font-family: 'BrooklynSamuelsFive-Bold';
+                                     height: 60px;
+                                     font-size: 12px;
+
+                                     .producto{
+                                                    width: 44px;
+                                                    height: 44px;
+                                                    float: right;
+                                                    position: relative;
+                                                    top: 50%;
+                                                    transform: translateY(-50%);
+                                                    box-sizing: border-box;
+                                                    background-color: #fff;
+                                                    border-radius: 100%;
+                                                    -moz-border-radius: 100%;
+                                                    -webkit-border-radius: 100%;
+                                                    -ms-border-radius: 100%;
+                                                    -o-border-radius: 100%;
+                                                    overflow: hidden;
+                                                    margin-top: 10px;
+                                                    top: 16px;
+                                                    margin-right: 20px;
+                                                    box-sizing: border-box;
+
+                                                    img{
+                                                                width: 110%;
+                                                    }
+                                        }
+
+                                        .puntos{
+                                                  float: left;
+                                                  width: 100px;
+                                                    position: relative;
+                                                    top: 50%;
+                                                    transform: translateY(-50%);
+                                                    height: 15px;
+                                                    padding-left: 10px;
+                                                    box-sizing: border-box;
+                                                    text-align: center;
+                                                    height: 30px;
+
+                                                    .num{
+                                                                width: 100%;
+                                                                font-family: 'BrooklynSamuelsFive-Bold';
+                                                                font-size: 21px;
+                                                    }
+
+                                                    span{
+                                                                width: 100%;
+                                                                 font-family: 'Brandon_reg';
+                                                                 font-size: 9px;
+                                                    }
+                                        
+                                        }
+
+                                       
+
+                                       .text {
+                                                    position: relative;
+                                                    top: 50%;
+                                                    transform: translateY(-50%);
+                                                    font-family: 'Brandon_reg';
+                                                    height: 15px;
+                                        }
+                        }
+
+                        .col-Auto{
+                                        width: auto;
+                        }
+
+                        .col-A{
+                                        width: 165px;
+                        }
+
+                        .col-B{
+                                        width: 105px;
+                        }
+
+                        .col-C{
+                                        width: 115px;
+                        }
+
+                        .col-D{
+                                        width: 210px;
+                        }
+
+                        .col-Total{
+                                        width: 230px;
+                        }
             }
 
 }

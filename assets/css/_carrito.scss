@@ -116,7 +116,7 @@
                                                     top: 50%;
                                                     transform: translateY(-50%);
                                                     font-family: 'Brandon_reg';
-                                                    height: 10px;
+                                                    height: 15px;
                                         }
 
                                       .color{
@@ -146,11 +146,11 @@
                                                      }
                                          }
                         }
-
-                        .col-D{
-                                        width: 210px;
+                        
+                        .col-Auto{
+                                        width: auto;
                         }
-
+                        
                          .col-A{
                                         width: 100px;
                         }
@@ -161,6 +161,10 @@
 
                         .col-C{
                                         width: 115px;
+                        }
+
+                        .col-D{
+                                        width: 210px;
                         }
 
                         .col-Total{
