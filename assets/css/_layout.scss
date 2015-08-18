@@ -90,6 +90,45 @@ $grisB : #B1B6A6;
 		margin: 0 auto;
 		display: block;
 	}
+
+            .block{
+                        float: right;
+                        position: absolute;
+                        right: 0;
+                        top: 20px;
+
+                        select{
+                                color: #fff;
+                                font-family: 'BrooklynSamuelsFive-Bold';
+                                background-color: $verde;
+                                border: none;
+                                box-shadow: none;
+                                background-image: url('../images/background-select.png');
+                        }
+            }
+
+            .contenedor {
+                    min-height: 0px;
+            }
+
+             .logout {
+                        float: right;
+                        padding-top:10px;
+                        cursor: pointer;
+                    
+                        p{
+                                    color: #fff;
+                                    float: left;
+                                    font-family: 'BrooklynSamuelsFive-Bold';
+                                    font-size: 11px;
+                                    padding-top: 2px;
+                                    padding-right:5px;
+                         }
+
+                         img{
+                                    float: left;
+                         }
+            }
 }
 
 .centrado{
@@ -99,7 +138,7 @@ $grisB : #B1B6A6;
 .menu {
             height: 100px;
              height: 75px;
-             padding-top:10px;
+             padding-top:12px;
             background-color: rgba(0,0,0,.5);
             -moz-background-color: rgba(0,0,0,.5);
             -webkit-background-color: rgba(0,0,0,.5);

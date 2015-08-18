@@ -475,6 +475,33 @@ body {
   .head img {
     margin: 0 auto;
     display: block; }
+  .head .block {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 20px; }
+    .head .block select {
+      color: #fff;
+      font-family: 'BrooklynSamuelsFive-Bold';
+      background-color: #009448;
+      border: none;
+      box-shadow: none;
+      background-image: url("../images/background-select.png"); }
+  .head .contenedor {
+    min-height: 0px; }
+  .head .logout {
+    float: right;
+    padding-top: 10px;
+    cursor: pointer; }
+    .head .logout p {
+      color: #fff;
+      float: left;
+      font-family: 'BrooklynSamuelsFive-Bold';
+      font-size: 11px;
+      padding-top: 2px;
+      padding-right: 5px; }
+    .head .logout img {
+      float: left; }
 
 .centrado {
   margin: 0 auto; }
@@ -482,7 +509,7 @@ body {
 .menu {
   height: 100px;
   height: 75px;
-  padding-top: 10px;
+  padding-top: 12px;
   background-color: rgba(0, 0, 0, 0.5);
   -moz-background-color: rgba(0, 0, 0, 0.5);
   -webkit-background-color: rgba(0, 0, 0, 0.5);
@@ -1461,6 +1488,20 @@ body {
 /*desktop------------------------------*/
 /*desktop large-----------------------------------------------*/
 /******** CARRITO ********/
+.confirmacion-carrito .head-page {
+  height: 136px;
+  padding: 40px 10px; }
+  .confirmacion-carrito .head-page h3 {
+    font-size: 22px; }
+.confirmacion-carrito .footer-carrito {
+  height: 370px; }
+.confirmacion-carrito .block-botones {
+  float: left; }
+  .confirmacion-carrito .block-botones .boton {
+    width: 125px !important;
+    margin-left: 60px;
+    margin-top: 20px; }
+
 .carrito-productos {
   min-height: 500px;
   width: 100%; }

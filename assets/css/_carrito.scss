@@ -1,6 +1,34 @@
 // ========================
 /******** CARRITO ********/
 // ========================
+
+.confirmacion-carrito{
+
+            .head-page{
+                    height: 136px;
+                    padding: 40px 10px;
+                    
+                    h3{
+                        font-size: 22px;
+                    }
+            }
+
+            .footer-carrito {
+                height: 370px;
+
+            }
+
+            .block-botones {
+                     float: left;
+
+                     .boton {
+                             width: 125px !important;
+                             margin-left: 60px;
+                             margin-top: 20px;
+                        }
+            }
+}
+
 .carrito-productos{
             min-height: 500px;
             width: 100%;

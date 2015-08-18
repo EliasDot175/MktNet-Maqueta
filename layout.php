@@ -30,7 +30,21 @@
 	<body>
 
 		<div class="head">
-                                      <img src="assets/images/Nufarm-max-logo.png" id="Nufarm" title="Nufarm" alt="Imagen no encontrada">
+			<div class="contenedor">
+                                     		<img src="assets/images/Nufarm-max-logo.png" id="Nufarm" title="Nufarm" alt="Imagen no encontrada">
+                         			<div class="block">
+                         				<select class="form-control">
+					  	<option>Mkt Net</option>
+					  	<option>Plan de Negocios</option>
+					  	<option>Vendedor Estrella</option>
+					</select>
+					<div class="logout">
+						<p class="text-uppercase">salir</p>
+						<img src="assets/images/cerrar.png" id="Nufarm" title="Nufarm" alt="Imagen no encontrada">
+					</div>
+					
+                         			</div>
+                         		</div>
                          </div>
 
 		<!-- MENU************************************************************************-->
