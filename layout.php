@@ -81,6 +81,7 @@
 					<a href="carrito.php" >
 						<span class="text text-uppercase">ver carrito</span>
 						<img src="assets/images/carrito.png" alt="">
+						<div class="num">6</div>
 					</a>
 				</div>
 				<!-- end / ver carrito-->

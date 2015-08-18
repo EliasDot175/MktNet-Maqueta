@@ -161,7 +161,7 @@
 
 
 				<!-- talles-unico -->
-				<table class="talles talles-unico" style="display:none">
+				<table class="talles talles-unico">
 					<tbody>
 						<tr>
 							<td>
