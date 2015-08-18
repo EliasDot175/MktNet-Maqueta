@@ -525,7 +525,8 @@ body {
     position: relative;
     display: block;
     padding: 0;
-    color: #fff; }
+    color: #fff;
+    z-index: 5; }
   .menu .nav > li > a:hover {
     background-color: transparent;
     opacity: .5; }
@@ -718,7 +719,8 @@ body {
 .ver-carrito {
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+  z-index: 5; }
   .ver-carrito span {
     width: auto;
     font-family: 'Brandon_reg';
@@ -729,6 +731,9 @@ body {
     float: left; }
   .ver-carrito a {
     float: left; }
+
+.ver-carrito:hover {
+  opacity: .5; }
 
 /* RESPONSIVE  */
 /*mobile--------------------------------------------------*/
@@ -1178,48 +1183,69 @@ body {
   .carrito-productos .tabla-detalle td {
     color: #fff;
     text-align: center;
-    font-family: 'Brandon_reg'; }
-    .carrito-productos .tabla-detalle td img {
-      width: 45px;
-      float: left; }
+    font-family: 'Brandon_reg';
+    height: 60px; }
+    .carrito-productos .tabla-detalle td .producto {
+      width: 50px;
+      height: 50px;
+      float: left;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-left: 20px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border-radius: 100%;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      -ms-border-radius: 100%;
+      -o-border-radius: 100%;
+      overflow: hidden;
+      margin-top: 5px;
+      top: 23px; }
+      .carrito-productos .tabla-detalle td .producto img {
+        width: 80%;
+        margin: 0 10%; }
+    .carrito-productos .tabla-detalle td .cerrar {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-left: 3px; }
     .carrito-productos .tabla-detalle td .text {
-      float: left; }
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
   .carrito-productos .tabla-detalle .item {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -moz-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -ms-border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     -o-border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
-  .carrito-productos .total .titulo {
-    height: 65px;
-    color: #fff;
-    text-align: center;
-    font-family: 'BrooklynSamuelsFive-Bold';
-    padding-top: 25px;
-    font-size: 12px;
-    background-color: rgba(84, 91, 80, 0.54);
-    -webkit-background-color: rgba(84, 91, 80, 0.54);
-    -moz-background-color: rgba(84, 91, 80, 0.54);
-    -ms-background-color: rgba(84, 91, 80, 0.54);
-    -o-background-color: rgba(84, 91, 80, 0.54); }
   .carrito-productos .total .block-num {
     padding: 10px;
-    background-color: rgba(53, 89, 68, 0.45);
-    -webkit-background-color: rgba(53, 89, 68, 0.45);
-    -moz-background-color: rgba(53, 89, 68, 0.45);
-    -ms-background-color: rgba(53, 89, 68, 0.45);
-    -o-background-color: rgba(53, 89, 68, 0.45); }
+    padding: 10px;
+    display: table;
+    height: 100%;
+    width: 80%;
+    margin: 0 10%;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-background-color: rgba(255, 255, 255, 0.1);
+    -moz-background-color: rgba(255, 255, 255, 0.1);
+    -ms-background-color: rgba(255, 255, 255, 0.1);
+    -o-background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    min-width: 100px; }
     .carrito-productos .total .block-num .num {
-      background-color: rgba(255, 255, 255, 0.1);
-      -webkit-background-color: rgba(255, 255, 255, 0.1);
-      -moz-background-color: rgba(255, 255, 255, 0.1);
-      -ms-background-color: rgba(255, 255, 255, 0.1);
-      -o-background-color: rgba(255, 255, 255, 0.1);
+      width: 100%;
       font-family: 'BrooklynSamuelsFive-Bold';
       font-size: 29px;
       padding: 10px;
       text-align: center;
-      color: #fff; }
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
 
 /* RESPONSIVE  */
 /*mobile--------------------------------------------------*/

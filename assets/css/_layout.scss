@@ -153,6 +153,7 @@ $grisB : #B1B6A6;
                 display: block;
                 padding: 0;
                 color: #fff;
+                z-index: 5;
             }
 
             .nav>li>a:hover {
@@ -438,6 +439,7 @@ $grisB : #B1B6A6;
             position: absolute;
             right: 0;
             top: 0;
+            z-index: 5;
 
             span{
                         width: auto;
@@ -456,6 +458,9 @@ $grisB : #B1B6A6;
              }
  }
 
+ .ver-carrito:hover{
+            opacity: .5;
+}
 // ==========================================================================
 /* RESPONSIVE  */
 // ==========================================================================

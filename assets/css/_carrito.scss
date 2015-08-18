@@ -49,15 +49,47 @@
                                      color: #fff;
                                      text-align: center;
                                      font-family: 'Brandon_reg';
+                                     height: 60px;
 
-                                      img {
-                                                width: 45px;
-                                                float: left;
+                                      .producto{
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    float: left;
+                                                    position: relative;
+                                                    top: 50%;
+                                                    transform: translateY(-50%);
+                                                    margin-left: 20px;
+                                                    box-sizing: border-box;
+                                                    background-color: #fff;
+                                                    border-radius: 100%;
+                                                    -moz-border-radius: 100%;
+                                                    -webkit-border-radius: 100%;
+                                                    -ms-border-radius: 100%;
+                                                    -o-border-radius: 100%;
+                                                    overflow: hidden;
+                                                    margin-top: 5px;
+                                                    top: 23px;
+
+                                                    img{
+                                                                width: 80%;
+                                                                margin: 0 10%;
+                                                    }
+                                        }
+
+                                        .cerrar{
+                                                position: relative;
+                                                top: 50%;
+                                                transform: translateY(-50%);
+                                                padding-left: 3px;
                                         }
 
                                        .text {
-                                                float: left;
+                                                position: relative;
+                                                top: 50%;
+                                                transform: translateY(-50%);
                                         }
+   
+    
                         }
 
                         .item {
@@ -70,43 +102,34 @@
             }
 
             .total{
-
-                        
-
-                        .titulo{
-                                        height: 65px;
-                                        color: #fff;
-                                        text-align: center;
-                                        font-family: 'BrooklynSamuelsFive-Bold';
-                                        padding-top: 25px;
-                                        font-size: 12px;
-                                        background-color: rgba(84,91,80,.54); 
-                                        -webkit-background-color: rgba(84,91,80,.54); 
-                                        -moz-background-color: rgba(84,91,80,.54); 
-                                        -ms-background-color: rgba(84,91,80,.54); 
-                                        -o-background-color: rgba(84,91,80,.54);  
-                        }
+                          
 
                         .block-num{
-                                    padding: 10px;
-                                    background-color: rgba(53,89,68,.45); 
-                                    -webkit-background-color: rgba(53,89,68,.45); 
-                                    -moz-background-color: rgba(53,89,68,.45); 
-                                    -ms-background-color: rgba(53,89,68,.45); 
-                                    -o-background-color: rgba(53,89,68,.45); 
+                                        padding: 10px;
+                                        padding: 10px;
+                                        display: table;
+                                        height: 100%;
+                                        width: 80%;
+                                        margin: 0 10%;
+                                        vertical-align: middle;
+                                        background-color: rgba(255,255,255,.1); 
+                                        -webkit-background-color: rgba(255,255,255,.1); 
+                                         -moz-background-color: rgba(255,255,255,.1); 
+                                        -ms-background-color: rgba(255,255,255,.1); 
+                                        -o-background-color: rgba(255,255,255,.1); 
+                                        position: relative;
+                                       min-width: 100px;
                                        
-
                                        .num{
-                                                        background-color: rgba(255,255,255,.1); 
-                                                        -webkit-background-color: rgba(255,255,255,.1); 
-                                                        -moz-background-color: rgba(255,255,255,.1); 
-                                                        -ms-background-color: rgba(255,255,255,.1); 
-                                                        -o-background-color: rgba(255,255,255,.1); 
-                                                        font-family: 'BrooklynSamuelsFive-Bold';
-                                                        font-size: 29px; 
-                                                        padding: 10px;
-                                                        text-align: center;
-                                                        color: #fff;
+                                                    width: 100%;
+                                                    font-family: 'BrooklynSamuelsFive-Bold';
+                                                    font-size: 29px; 
+                                                    padding: 10px;
+                                                    text-align: center;
+                                                    color: #fff;
+                                                    position: absolute;
+                                                     top: 50%;
+                                                    transform: translateY(-50%);
                                         }
                         }
             }
