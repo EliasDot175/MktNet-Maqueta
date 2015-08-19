@@ -1261,7 +1261,9 @@ body {
       display: inline-block;
       font-size: 11px; }
       .detalle-productos .block-num .icon-num p {
-        padding: 3px; }
+        padding: 3px 0px;
+        text-align: center;
+        width: 100%; }
   .detalle-productos .talles {
     margin-left: 15px;
     margin-top: 10px; }
