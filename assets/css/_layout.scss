@@ -481,6 +481,7 @@ $grisB : #B1B6A6;
             margin: 0 auto;
             display: block;
             display: table;
+            padding-top: 2em;
 
             .boton {
                         background-color: $violeta;
@@ -492,6 +493,14 @@ $grisB : #B1B6A6;
                         font-weight: normal;
                         padding-top: 5px;
                         margin: 0 5px;
+
+                &.href{
+                    padding: 7px;
+                    padding-top: 10px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    text-decoration: none;
+                }
              }
 
              .boton:hover {
