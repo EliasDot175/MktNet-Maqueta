@@ -732,7 +732,8 @@ body {
     padding-top: 4px;
     font-family: 'Brandon_reg';
     font-size: 12px;
-    font-weight: bold; }
+    font-weight: bold;
+    width: 90%; }
   .mensaje-error .icon {
     float: left; }
 
@@ -982,7 +983,7 @@ body {
     -webkit-border-radius: 3px;
     -o-border-radius: 3px;
     -ms-border-radius: 3px;
-    min-height: 320px; }
+    min-height: 280px; }
     .lista-productos .item .img {
       width: 156px;
       margin: 0 auto;
