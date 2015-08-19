@@ -86,10 +86,14 @@
 
 					<!-- quitar-->
 					<td class="quitar col-A">
+					<a href="carrito_lista_de">
+						
+						
 						<p class="text-uppercase">
 							quitar
 							<img class="cerrar" src="assets/images/cerrar.png" alt="">
 						</p>
+						</a>
 					</td>
 					<!--  end / quitar-->
 
