@@ -85,7 +85,7 @@
 					<!--  end / puntos-->
 
 					<!-- quitar-->
-					<td class="quitar col-A">
+					<td class="quitarA col-A">
 					<a href="carrito_lista_de">
 						
 						
