@@ -746,7 +746,8 @@ body {
 .block-botones {
   margin: 0 auto;
   display: block;
-  display: table; }
+  display: table;
+  padding-top: 2em; }
   .block-botones .boton {
     background-color: #8E3289;
     border: none;
@@ -757,6 +758,12 @@ body {
     font-weight: normal;
     padding-top: 5px;
     margin: 0 5px; }
+    .block-botones .boton.href {
+      padding: 7px;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-decoration: none; }
   .block-botones .boton:hover {
     opacity: .8; }
   .block-botones .inactivo {
